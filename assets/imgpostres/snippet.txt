@@ -1,0 +1,12 @@
+<model-viewer src="sundae.glb" camera-controls ar-modes="scene-viewer webxr quick-look" camera-orbit="584.5deg 66.34deg 0.5778m" poster="poster.png" auto-rotate environment-image="581850b9-77b4-416e-8ce6-f3671e489186" skybox-image="581850b9-77b4-416e-8ce6-f3671e489186">
+
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
